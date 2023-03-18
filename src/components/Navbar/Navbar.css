@@ -1,0 +1,83 @@
+.NavbarContainer{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(68, 68, 239);
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.NavbarLeft{
+    flex: 1;
+}
+.NavbarCenter{
+    flex: 5;
+}
+.NavbarRight{
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.NavbarLink{
+    margin-right: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.NavbarIcons{
+    display: flex;
+}
+.NavbarIconItem{
+    margin-right: 15px;
+    cursor: pointer;
+    position:relative;
+}
+.NavbarIconBadge{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    color: white;
+    top: -5px;
+    right: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+.NavbarImage{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.logo{
+    font-size: 24px;
+    margin-left: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+.SearchBar{
+    width: 70%;
+    height: 30px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+.SearchIcon{
+    font-size: 20px!important;
+    margin-left: 10px;
+}
+.SearchInput{
+    border: none;
+    width: 70%;
+}
+.SearchInput:focus{
+    outline: none;
+}
